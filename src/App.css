@@ -1,0 +1,48 @@
+/* app.css */
+
+/* Loading Message */
+.loading {
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+  color: #666;
+}
+
+/* Error Message */
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Posts List */
+.post-list {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual Post */
+.post {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.post:last-child {
+  border-bottom: none;
+}
+
+.post h2 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.post p {
+  margin: 0;
+  color: #666;
+}

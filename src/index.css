@@ -1,0 +1,24 @@
+/* index.css */
+
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+/* Global Header Styles */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
