@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { fetchPosts } from '../services/api';
+import fetchPosts from '../services/api';
 import PostsList from '../components/PostsList';
 import ErrorMessage from '../components/ErrorMessage';
 import './app.css';

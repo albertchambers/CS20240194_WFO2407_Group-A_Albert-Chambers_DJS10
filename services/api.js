@@ -5,7 +5,7 @@
  * @returns {Promise<object[]>} A promise resolving to a list of posts.
  * @throws Will throw an error if the API response is not "ok".
  */
-export const fetchPosts = async () => {
+const fetchPosts = async () => {
   const response = await fetch('https://jsonplaceholder.typicode.com/posts');
 
   if (!response.ok) {
@@ -14,3 +14,5 @@ export const fetchPosts = async () => {
 
   return response.json();
 };
+
+export default fetchPosts
