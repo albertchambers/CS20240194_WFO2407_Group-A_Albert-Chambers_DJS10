@@ -1,3 +1,4 @@
+import React from 'react'; // Import React to resolve JSX
 import PropTypes from 'prop-types';
 
 /**
